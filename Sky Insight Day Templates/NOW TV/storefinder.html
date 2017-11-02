@@ -43,17 +43,25 @@
           </div>
         </nav>
 
-				<section id="socialmedia">
-          
-          <!-- This is where you should put all your app content -->
-          
-          <h4> Twitter Newsfeed</h4>
-          <a class="twitter-timeline"  href="https://twitter.com/hashtag/NowTV" data-widget-id="926069926263250944">#NowTV Tweets</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        
-
-
-				</section>
-
+				<section id="storefinder">
+          <h1>Store Finder</h1>
+          <div id="map"></div>
+          <script>
+            var map;
+            function initMap() {
+              var leeds = {lat: 53.7996368, lng: -1.5415019};
+              map = new google.maps.Map(document.getElementById('map'), {
+                center: leeds,
+                zoom: 14
+              });
+              var marker = new google.maps.Marker({
+                position: leeds,
+                map: map
+              });
+            }
+          </script>
+        </section>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaz9qUCAnIkn4mmrl4VtIDxR2jfvWT888&callback=initMap"
+        async defer></script>
 </body>
 </html>
