@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Website Name</title>
+
+  <!-- Sky Web Toolkit -->
+  <href rel="stylesheet" href="http://web-toolkit.global.sky.com/2.3.7/stylesheets/toolkit.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- App CSS -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- This is the code for the navigation bar  -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" hre="http://www.nowtv.com">
+          <img class="logo" src="img/logo.png">
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="./app.html">Home</a>
+          </li>
+          <li>
+            <a href="./showlist.html">Show List</a>
+          </li>
+          <li>
+            <a href="./socialmedia.html">Social Media</a>
+          </li>
+          <li>
+            <a href="./search.html">Search</a>
+          </li>
+          <li>
+            <a href="#">Page 3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="showlist">
+    <h1>Search</h1>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <body>
+      <div class="container">
+        <form class="form">
+
+          <!-- SEARCH -->
+          <div class="form-group">
+            <div class="col-sm-6 form-group NoPadding">
+              <input type="text" class="form-control">
+            </div>
+
+            <!-- CATEGORIES -->
+            <div class="col-sm-2 form-group NoPadding">
+              <select name="Categories" class="form-control">
+                <option value="0">All Categories</option>
+                <option value="1">Genre</option>
+                <option value="2">Title</option>
+                <option value="3">Either</option>
+            </div>
+
+            <!-- BUTTON -->
+            <input type="submit" class="form-control">
+
+            </input>
+
+            <div class="col-sm-1 form-group NoPadding">
+              <script>
+
+
+
+                $.get('http://localhost:8080/tv', function (response) {
+                  response.sort(function (a, b) {
+                    if (a.title < b.title)
+                      return -1;
+                    if (a.title > b.title)
+                      return 1;
+                    return 0;
+                  });
+
+
+                  
+                });
+
+              </script>
+            </div>
+
+
+        </form>
+        </div>
+    </body>
+
+  </section>
+  <script>
+
+
+  </script>
+</body>
+
+</html>
