@@ -186,12 +186,15 @@
     width: 100%;
 }
 
-#showlist {
+#showlist,#socialmedia {
     margin: 0 2rem;
+<<<<<<< HEAD
 }
 
 
 .h2{
 	position:centre;
 	color:blue;
+=======
+>>>>>>> 2041d21e39c81b52b3eb97be7c6a9f9e8f02f7b0
 }

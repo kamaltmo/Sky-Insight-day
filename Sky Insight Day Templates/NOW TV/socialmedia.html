@@ -43,34 +43,17 @@
           </div>
         </nav>
 
-				<section id="showlist">
-          <h1>Latest Shows</h1>
+				<section id="socialmedia">
           
-        </section>
-        <script>
+          <!-- This is where you should put all your app content -->
+          
+          <h4> Twitter Newsfeed</h4>
+          <a class="twitter-timeline"  href="https://twitter.com/hashtag/NowTV" data-widget-id="926069926263250944">#NowTV Tweets</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         
-        $.get('http://localhost:8080/tv', function(response) {
-            response.sort(function(a,b) {
-              if (a.title < b.title)
-                return -1;
-              if (a.title > b.title)
-                return 1;
-              return 0;
-            });
 
-           var section = $('section');
-           for(var i = 0; i < response.length; i++) {
-             section.append(
-               "<h3>" + response[i].title + "</h3>" +
-               "<p><i>"  +  response[i].synopsis + "</i></p>" +
-               "<p><b>" + response[i].genre + "</b></p>"
 
-              
-              );
+				</section>
 
-           }
-        });
-        
-        </script>
 </body>
 </html>
