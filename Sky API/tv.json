@@ -1,0 +1,64 @@
+{
+  "recs": [
+    {
+      "title": "New Girl",
+      "id": 1,
+      "genre": "Comedy",
+      "synopsis": "After a bad break-up, Jess, an offbeat young woman, moves into an apartment loft with three single men. Although they find her behavior very unusual, the men support her - most of the time."
+    },
+    {
+      "title": "The Bing Theory",
+      "id": 2,
+      "genre": "Comedy",
+      "synopsis": ""
+    },
+    {
+      "title": "The Blacklist",
+      "id": 3,
+      "genre": "Drama, Crime",
+      "synopsis": "Elizabeth 'Liz' Keen, a new FBI profiler has her entire life uprooted when a mysterious criminal, Raymond Reddington, on the FBI's Top Ten Most Wanted List turns himself in and insists on speaking to her."
+    },
+    {
+      "title": "The Office",
+      "id": 3,
+      "genre": "Comedy",
+      "synopsis": "The story of an office that faces closure when the company decides to downsize its branches. A documentary film crew follow staff and the manager Brent as they continue their daily lives."
+    },
+    {
+      "title": "The Office (US)",
+      "id": 4,
+      "genre": "Comedy",
+      "synopsis": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium. Based on the hit BBC series."
+    },
+    {
+      "title": "Game of Thrones",
+      "id": 5,
+      "genre": "Drama",
+      "synopsis": "Several noble families fight for control of the mythical land of Westeros."
+    },
+    {
+      "title": "Arrow",
+      "id": 6,
+      "genre": "Action, Adventure, Crime",
+      "synopsis": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow."
+    },
+    {
+      "title": "Suits",
+      "id": 7,
+      "genre": "Comedy, Drame",
+      "synopsis": "On the run from a drug deal gone bad, Mike Ross, a brilliant college-dropout, finds himself a job working with Harvey Specter, one of New York City's best lawyers."
+    },
+    {
+      "title": "Supernatural",
+      "id": 8,
+      "genre": "Drama, Fantasy, Horror",
+      "synopsis": "Two brothers follow their father's footsteps as \"hunters\" fighting evil supernatural beings of many kinds including monsters, demons, and gods that roam the earth."
+    },
+    {
+      "title": "Sherlock",
+      "id": 9,
+      "genre": "Drama, Crime, Mystery",
+      "synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "recs": [
+    {
+      "title": "Beverly Hills Cop",
+      "id": 1,
+      "genre": "Comedy",
+      "synopsis": "Streetwise Detroit detective Eddie Murphy pursues a colleague's killer to LA, causing mayhem for local cop Judge Reinhold. Action comedy. Contains strong language/violence. (1984)(100 mins)"
+    },
+    {
+      "title": "Chaos",
+      "id": 3,
+      "genre": "Action",
+      "synopsis": "Disgraced cop Jason Statham is recalled to duty when a bank heist baffles police. Can he outwit crook Wesley Snipes? Clever, twisty thriller. Strong language/violence. (2005)(102 mins)"
+    },
+    {
+      "title": "Night Falls on Manhattan",
+      "id": 4,
+      "genre": "Drama",
+      "synopsis": "District Attorney Andy Garcia is torn when an investigation into police corruption hits close to home. Tense, twisting thriller from director Sidney Lumet. (1997)(109 mins)"
+    },
+    {
+      "title": "Frontera",
+      "id": 5,
+      "genre": "Drama",
+      "synopsis": "When tragedy strikes, a man trying to sneak over the Mexican border is wrongly accused of murder. Western drama with Ed Harris, Michael Pena and Eva Longoria. (2014)(99 mins)"
+    },
+    {
+      "title": "Ordinary People",
+      "id": 6,
+      "genre": "Drama",
+      "synopsis": "Oscar-winning drama about a family traumatised by the death of its eldest son and how his younger brother copes with the tragedy. Timothy Hutton and Donald Sutherland star. (1980)(119 mins)"
+    },
+    {
+      "title": "Midnight Cowboy",
+      "id": 7,
+      "genre": "Drama",
+      "synopsis": "Naive hustler Jon Voight drifts to New York and takes up with Dustin Hoffman's streetwise con man in this Oscar-winning classic from director John Schlesinger. (1969)(108 mins)"
+    },
+    {
+      "title": "Escape from Alcatraz",
+      "id": 8,
+      "genre": "Action",
+      "synopsis": "Fact-based adventure following a group of convicts as they attempt to break out of the world's most notorious prison. Starring Clint Eastwood. Contains flashing images. (1979)(107 mins)"
+    },
+    {
+      "title": "Cool Hand Luke",
+      "id": 9,
+      "genre": "Drama",
+      "synopsis": "Paul Newman is unforgettable as the defiant Deep South chain-gang prisoner whose rebellion makes him a hero with fellow inmates. An Oscar-winning George Kennedy co-stars. (1967)(122 mins)"
+    }
+  ]
+}

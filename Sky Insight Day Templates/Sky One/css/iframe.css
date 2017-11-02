@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+}
+.placeholder{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/placeholder.jpg);
+  background-size: 100% 100%;
+}
+.site{
+  position: absolute;
+  top: 12.85%;
+  left: 38.56%;
+  width: 22.16%;
+  height: 71%;
+}

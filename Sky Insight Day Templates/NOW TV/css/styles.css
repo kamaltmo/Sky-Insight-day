@@ -1,0 +1,30 @@
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 0;
+}
+.navbar-header{
+  background-color: #387EAC;
+  height: 60px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+.navbar-default {
+    background-color: #387EAC;
+    border-color: #387EAC;
+}
+.navbar-default .navbar-toggle:hover{
+  background-color: #2a5e7f;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.logo{
+  height: 25px;
+  width: auto;
+}
