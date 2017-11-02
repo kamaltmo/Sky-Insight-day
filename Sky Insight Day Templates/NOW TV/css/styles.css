@@ -28,3 +28,7 @@
   height: 25px;
   width: auto;
 }
+
+#showlist {
+    margin: 0 2rem;
+}
