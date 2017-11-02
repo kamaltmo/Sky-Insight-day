@@ -37,41 +37,31 @@
                 <li><a href="./app.html">Home</a></li>
                 <li><a href="./showlist.html">Show List</a></li>
                 <li><a href="./socialmedia.html">Social Media</a></li>
-                <li><a href="./search.html">Search</a></li>
                 <li><a href="./storefinder.html">Store Finder</a></li>
               </ul>
             </div>
           </div>
         </nav>
 
-				<section id="showlist">
-          <h1>Latest Shows</h1>
-          
+				<section id="storefinder">
+          <h1>Store Finder</h1>
+          <div id="map"></div>
+          <script>
+            var map;
+            function initMap() {
+              var leeds = {lat: 53.7996368, lng: -1.5415019};
+              map = new google.maps.Map(document.getElementById('map'), {
+                center: leeds,
+                zoom: 14
+              });
+              var marker = new google.maps.Marker({
+                position: leeds,
+                map: map
+              });
+            }
+          </script>
         </section>
-        <script>
-        
-        $.get('http://localhost:8080/tv', function(response) {
-            response.sort(function(a,b) {
-              if (a.title < b.title)
-                return -1;
-              if (a.title > b.title)
-                return 1;
-              return 0;
-            });
-
-           var section = $('section');
-           for(var i = 0; i < response.length; i++) {
-             section.append(
-               "<h3>" + response[i].title + "</h3>" +
-               "<p><i>"  +  response[i].synopsis + "</i></p>" +
-               "<p><b>" + response[i].genre + "</b></p>"
-
-              
-              );
-
-           }
-        });
-        
-        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaz9qUCAnIkn4mmrl4VtIDxR2jfvWT888&callback=initMap"
+        async defer></script>
 </body>
 </html>
