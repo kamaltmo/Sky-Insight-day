@@ -188,8 +188,14 @@
 
 #showlist,#socialmedia,#storefinder {
     margin: 0 2rem;
+
 }
 #map {
     height:475px;
     width:325px;
+}
+
+.h2{
+	position:centre;
+    color:blue;
 }
