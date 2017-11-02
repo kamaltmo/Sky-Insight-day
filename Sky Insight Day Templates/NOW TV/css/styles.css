@@ -28,3 +28,160 @@
   height: 25px;
   width: auto;
 }
+.carousel{
+	margin-bottom:10%;
+}
+
+.carousel-inner {
+	margin-bottom:10%;
+}
+
+.carousel-indicators {
+	position: absolute;
+	bottom: -15%;
+	left: 50%;
+	z-index: 15;
+	width: 60%;
+	padding-left: 0;
+	margin-left: -30%;
+	text-align: center;
+	list-style: none;
+}
+
+.carousel-indicators li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #fff \9;
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #ff0000;
+	border-radius: 10px;
+}
+
+.carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	background-color: #ff0000;
+}
+
+.carousel-control{
+	cursor:pointer;
+}
+
+.carousel-inner .active.left{
+	left: -25%;
+}
+
+.carousel-inner .next{
+	left:25%;
+}
+
+.carousel-inner .prev{
+	left:-25%;
+}
+
+.carousel-control{
+	width:4%;
+}
+
+.carousel-control.left{
+	margin-left:0;
+	background-image:none;
+}
+
+.carousel-control.right{
+	margin-right:0;
+	background-image:none;
+}
+
+.thumb-inner .thumb2-inner{
+	background:#fff;
+}
+
+/*Hide Carousel Controls until hover*/
+.carousel .carousel-control{
+	display:none;
+}
+
+/*Display Carousel Controls on hover*/
+.carousel:hover .carousel-control{
+	display:block;
+}
+
+#thumb-inner > .item{
+	position:relative;
+	overflow:hidden;
+}
+
+#thumb-inner > .item > a img{
+	position:relative;
+	overflow:hidden;
+}
+
+.carousel > .thumb-inner{
+	width:100%;
+	position:relative;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+.nav-carousel {
+    padding-bottom: 0%;
+    width: 100%;
+    z-index: 101;
+    -webkit-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+    float: none;
+    margin: 0;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+}
+
+.nav-carousel li{
+}
+
+.nav-carousel li > a{
+    padding: 0;
+}
+
+.nav-carousel li > a:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carousel-border{
+}
+
+.nav-carousel > .active > a, .nav-carousel > .active > a:hover, .nav-carousel > .active > a:focus, #carousel a:hover, #carousel a:focus{
+	outline:none;
+	cursor:pointer;
+}
+
+.nav-carousel.affix{
+	width: 100%;
+	position: static;
+	z-index:101;
+	height:auto;
+	padding-bottom:0%;
+}
+
+.nav-carousel > li{
+	z-index:100;
+	padding-bottom:0%;
+}
+
+.slider-div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.slider-div img {
+    width: 100%;
+}
